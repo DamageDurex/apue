@@ -2,7 +2,7 @@ ROOT=..
 PLATFORM=$(shell $(ROOT)/systype.sh)
 include $(ROOT)/Make.defines.$(PLATFORM)
 
-PROGS =	open lseek
+PROGS =	open creat close
 all:	$(PROGS)
 
 %:	%.c $(LIBAPUE)
@@ -10,5 +10,5 @@ all:	$(PROGS)
 
 clean:
 	rm -f $(PROGS) $(TEMPFILES) *.o
-
+	rm -f *.txt
 include $(ROOT)/Make.libapue.inc
