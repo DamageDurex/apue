@@ -23,7 +23,7 @@
 
 使用windows 10 自带的 wsl 
 
-linux版本为ubuntu 安装了gcc与gdb 
+linux版本为Ubuntu 安装了gcc与gdb 
 
 
 ### apue代码编译
