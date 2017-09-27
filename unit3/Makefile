@@ -1,8 +1,9 @@
 ROOT=..
-PLATFORM=$(shell $(ROOT)/systype.sh)
+#PLATFORM=$(shell $(ROOT)/systype.sh)
+PLATFORM=linux
 include $(ROOT)/Make.defines.$(PLATFORM)
 
-PROGS =	open creat close
+PROGS =	open creat close read
 all:	$(PROGS)
 
 %:	%.c $(LIBAPUE)

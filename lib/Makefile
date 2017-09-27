@@ -2,7 +2,8 @@
 # Makefile for misc library.
 #
 ROOT=..
-PLATFORM=$(shell $(ROOT)/systype.sh)
+#PLATFORM=$(shell $(ROOT)/systype.sh)
+PLATFORM=linux
 include $(ROOT)/Make.defines.$(PLATFORM)
 
 LIBMISC	= libapue.a

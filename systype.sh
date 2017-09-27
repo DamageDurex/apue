@@ -6,7 +6,6 @@
 # This script is intended to be used in Makefiles.
 # (This is a kludge.  Gotta be a better way.)
 #
-
 case `uname -s` in
 "FreeBSD")
 	PLATFORM="freebsd"
