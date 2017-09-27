@@ -3,7 +3,7 @@ ROOT=..
 PLATFORM=linux
 include $(ROOT)/Make.defines.$(PLATFORM)
 
-PROGS =	open creat close read
+PROGS =	open creat close read write atomic_io
 all:	$(PROGS)
 
 %:	%.c $(LIBAPUE)
