@@ -17,6 +17,14 @@
 	- systype.sh
 
 
+## 其他相关
+
+### 开发工具
+
+linux平台使用vim
+
+windows平台使用sublime
+
 
 
 ### 所使用系统
